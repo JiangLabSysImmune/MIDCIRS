@@ -119,7 +119,7 @@ close(LS);
 
 sub consens {
 	my %gp_seq = %{$_[0]};
-	my %gp_sco = %{$_[0]};
+	my %gp_sco = %{$_[1]};
 	
 	my $sc_all = 100;
 
